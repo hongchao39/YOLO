@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 ultralytics
 gradio
 pillow
 opencv-python-headless
 numpy
+=======
+ultralytics
+gradio
+pillow
+opencv-python-headless
+numpy
+>>>>>>> 4fc1f58f59ee2cef7d94217cdac2af6ed0c6b918

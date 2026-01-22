@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: yolo-card-detector
@@ -9,3 +10,16 @@ services:
         value: 0.0.0.0
       - key: GRADIO_SERVER_PORT
         value: 7860
+=======
+services:
+  - type: web
+    name: yolo-card-detector
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python gradio_app.py
+    envVars:
+      - key: GRADIO_SERVER_NAME
+        value: 0.0.0.0
+      - key: GRADIO_SERVER_PORT
+        value: 7860
+>>>>>>> 4fc1f58f59ee2cef7d94217cdac2af6ed0c6b918
